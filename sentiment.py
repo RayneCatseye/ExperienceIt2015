@@ -32,6 +32,6 @@ for line in tw:
 #print(str(tw_romance_counter) + '/' + str(tw_word_counter))
 
 if (tw_romance_counter/float(tw_word_counter)) > (hp_romance_counter/float(hp_word_counter)):
-    print ('Twilight is more romantic with ' + str(tw_romance_counter) + ' romantic words.')
+    print ('Twilight is more romantic.')
 else:
     print ('Harry Potter is more romantic.')
